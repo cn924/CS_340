@@ -39,7 +39,7 @@ List only the first 20 names of companies with offices in either California or T
 
 ```db.research.find({"offices.state_code": {"$in": ["CA", "TX"]}}, {"name": 1, "number_of_employees": 1}).sort({"number_of_employees": -1}).limit(20).pretty()```
 
-![](noOfemp.gif)>
+![](noOfemp.gif)
 
 
 
@@ -56,7 +56,7 @@ Design and implement a MongoDB aggregation pipeline to show the total number of 
 
 
 
-![](Animation.gif)>
+![](Animation.gif)
 
 
 
