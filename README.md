@@ -46,7 +46,15 @@ List only the first 20 names of companies with offices in either California or T
 
 # MongoDB Aggregation Pipeline  
 
-Design and implement a MongoDB aggregation pipeline to show the total number of employees by state for all companies that have offices in the United States. Be sure that you account for the fact that some companies have offices in several states.
+Design and implement a MongoDB aggregation pipeline to show the total number of employees by state for all companies that have offices in the United States. Be sure that you account for the fact that some companies have offices in several states.  
+
+```db.research.aggregate([
+    {$unwind: "$offices"},
+    {$match: {"offices.country_code": "USA"}},
+    {$group: {_id: "$offices.state_code", employees: {$sum: "$number_of_employees"}}}
+])```  
+
+
 
 ![](Animation.gif)>
 
