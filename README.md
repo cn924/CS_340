@@ -1,4 +1,4 @@
 # CS_340
 
 
-![](show_dbs.png)
+![](show_dbs.PNG)
