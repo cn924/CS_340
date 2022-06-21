@@ -17,7 +17,10 @@ Anytime we need to import a databse that needed to manipulated in a similar mann
 
 
 **How do you approach a problem as a computer scientist?**  
- Consider how you approached the database or dashboard requirements that Grazioso Salvare requested.  
+ Consider how you approached the database or dashboard requirements that Grazioso Salvare requested.
+ 
+ I look over the requirements carefully and envision myself as the user. From that perspective and   
+ desgning with the user in mind, I feel that I will accomplish a greater success in any project.
  
  
  
@@ -34,7 +37,14 @@ improving all the time
  
 **What do computer scientists do, and why does it matter?**  
 
+The is a very open ended question. I view it as serving the user. I attempt to put my self in the users place.
+So that I can display data so that they can use it in a useful way. If it is decision making, purchasing ,  
+analyzing, manufacturing, or recording for later use. the computer scientist can write programs to help in a variety of ways.
+
 
 **How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?**  
+
+Anytime there is data taht needs to be sorted and viewed in a beautiful graphical manner. Whether it be pie charts, bar charts.  
+Gps coordinates this project could be easily adapted.
 
 
