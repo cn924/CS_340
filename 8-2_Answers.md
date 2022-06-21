@@ -44,7 +44,7 @@ analyzing, manufacturing, or recording for later use. the computer scientist can
 
 **How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?**  
 
-Anytime there is data taht needs to be sorted and viewed in a beautiful graphical manner. Whether it be pie charts, bar charts.  
+Anytime there is data that needs to be sorted and viewed in a beautiful graphical manner. Whether it be pie charts, bar charts.  
 Gps coordinates this project could be easily adapted.
 
 
