@@ -26,7 +26,11 @@ AND.
 
 # Running Queries 
 
-List only the first 20 names of companies founded after the year 2010, ordered alphabetically.
+List only the first 20 names of companies founded after the year 2010, ordered alphabetically.  
+
+```db.research.find({"offices.state_code": {"$in": ["CA", "TX"]}}, {"name": 1, "number_of_employees": 1}).sort({"number_of_employees": -1}).limit(20).pretty()```
+
+![](Animation.gif)>
 
 
 
