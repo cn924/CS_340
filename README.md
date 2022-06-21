@@ -24,20 +24,22 @@ AND.
 -
 ![](founded.PNG)>
 
+
+
 # Running Queries 
 
 List only the first 20 names of companies founded after the year 2010, ordered alphabetically.  
 
-```db.research.find({"offices.state_code": {"$in": ["CA", "TX"]}}, {"name": 1, "number_of_employees": 1}).sort({"number_of_employees": -1}).limit(20).pretty()```
+```db.research.find({"founded_year": {"$gt": 2010}}, {"name": 1}).sort({"name": 1}).limit(20)```
 
-![](Animation.gif)>
-
-
+![](founded_year.PNG)>
 
 
 List only the first 20 names of companies with offices in either California or Texas, ordered by the number of employees and sorted largest to smallest.
 
+```db.research.find({"offices.state_code": {"$in": ["CA", "TX"]}}, {"name": 1, "number_of_employees": 1}).sort({"number_of_employees": -1}).limit(20).pretty()```
 
+![](noOfemp.gif)>
 
 
 
