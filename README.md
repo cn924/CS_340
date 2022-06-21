@@ -6,17 +6,21 @@ We imported the database with:
 
 From the shell, we can see that the database appears.  
 
-![](show_dbs.PNG)>
+![](show_dbs.PNG)>  
 
-Next we can run a couple of tests to verify the load.  
+# Verify Load
 
-```db.research.find({"name" : "AdventNet"})```
-![](advent.gif)>
+Next we can run a couple of tests to verify the load.      
 
+```db.research.find({"name" : "AdventNet"})``` 
+&nbsp;
+![](advent.PNG)>
 
+AND.  
 
-```db.research.find({"founded_year" : 1996},{"name" : 1}).limit(10)```
-![](founded.gif)>
+```db.research.find({"founded_year" : 1996},{"name" : 1}).limit(10)``` 
+&nbsp;
+![](founded.PNG)>
 
 
 
